@@ -1,1 +1,1 @@
-# lottery_exercise
+# First Solidity Exercise
