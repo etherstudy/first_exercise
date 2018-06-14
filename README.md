@@ -1,1 +1,1 @@
-# First Solidity Exercise
+# First Solidity & DApp Exercise
