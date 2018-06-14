@@ -12,11 +12,11 @@
         <h2 id="output"></h2>
 
         <img id="loader" src="https://loading.io/spinners/double-ring/lg.double-ring-spinner.gif">
+
         <label class="col-lg-2 control-label"> Name</label>
         <input id="name" type="text">
         <label class="col-lg-2 control-label"> Age</label>
         <input id="age" type="text">
-
         <button id="button">Set</button>
 
     </div>
@@ -89,7 +89,7 @@
         }
     ];
     var myContract = web3.eth.contract(ABI);
-    var myFirst = myContract.at('0xb1a858d0d62b3b1f146310ab9550c8dba617964a'); // Change Your Own Contract Account!
+    var myFirst = myContract.at('0xb1a858d0d62b3b1f146310ab9550c8dba617964a'); // Please change to your own contract-account.
     console.log(myFirst);
 
     //-----------------------

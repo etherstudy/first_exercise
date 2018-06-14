@@ -10,13 +10,22 @@ contract myFirst {
     );
 
     function setVal(string _name, uint _age) public {
-        name = _name;
-        age = _age;
+        //--------------------------
+        // please enter the set code
+        //--------------------------
+        ////name = _name;
+        ////age = _age;
 
-        First(name, age);
+        //------------------------------------
+        // please enter the trigger-event code
+        //------------------------------------
+        ////First(name, age);
     }
 
     function getVal() view public returns (string, uint) {
-        return (name, age);
+        //--------------------------
+        // please enter the get code
+        //--------------------------
+        ////return (name, age);
     }
 }
