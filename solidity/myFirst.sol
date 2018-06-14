@@ -9,10 +9,9 @@ contract myFirst {
         uint age
     );
 
-    function setVal(string _name, uint _age) payable public {
+    function setVal(string _name, uint _age) public {
         name = _name;
         age = _age;
-
 
         First(name, age);
     }
